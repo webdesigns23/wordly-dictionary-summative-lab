@@ -1,0 +1,23 @@
+{
+  "name": "wordly-dictionary-summative-lab",
+  "version": "1.0.0",
+  "description": "Wordly interactive dictionary SAP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webdesigns23/wordly-dictionary-summative-lab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webdesigns23/wordly-dictionary-summative-lab/issues"
+  },
+  "homepage": "https://github.com/webdesigns23/wordly-dictionary-summative-lab#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
