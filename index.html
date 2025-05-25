@@ -4,14 +4,33 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Wordly Dictionary</title>
-	<link rel="sylesheet" href="styles.css">
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 	<h1>Wordly Dictionary</h1>
-	<input type = "text" id="word-input" placeholder="Search">
-	<button id="fetch-word">Find Word</button>
-	<div id="word-display"></div>
+	<p>Welcome to the Wordly Interactive Dictionary! </p>
+	<img src="Images/dictionary_banner.jpg" alt="open book with abstract words and a magnifying glass">
+
+	<div class="form">
+		<form id="search-word-form">
+      	<label for="new-word">Dictionary:</label>
+      	<input type="text" id="new-word" name="new-word" placeholder="Search for word here"required>
+      	<button type="submit" id="submit-button">Search</button>
+    	</form>
+	</div>
+	<section id="word-display">
+		<h2 id="word-name"></h2>
+		<div id="word-info"></div>
+		<div id="word-audio"></div>		
+	</section>
+
 	<div id="error-message" class="hidden"></div>
+	
+    <!-- For future updates: <div id="previous-word-list">
+      <h3>Previously Searched Words:</h2>
+      <ul id="previous-words"></ul>
+    </div>	 -->
+
 	<script src="index.js"></script>	
 </body>
 </html>
